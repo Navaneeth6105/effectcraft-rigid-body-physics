@@ -73,6 +73,3 @@ Text is one layer, so it moves as one block. Press **Split selected into letters
 - Unparented 2D layers only. Skipped layers are listed in the panel.
 - Baked at the composition frame rate; physics stepped at 120 Hz internally.
 
-## Testing status
-
-The physics (bounce ratios, friction on a slope, density, stacking, cups, animated obstacles) and all layer handling (name rules, material sliders, splitting text and shape groups, baking) were tested against a mock of the After Effects scripting model, not inside EffectCraft itself. Splitting text relies on duplicating a layer, rewriting its text and measuring it; if EffectCraft doesn't support one of those, the panel says so and suggests converting to shapes. Send me any error text the panel shows.
