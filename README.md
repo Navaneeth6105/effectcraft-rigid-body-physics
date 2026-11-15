@@ -2,6 +2,11 @@
 
 A script panel that makes shape and text layers behave as rigid bodies. It reads each layer's real outline, simulates gravity, collisions, bounce, friction and spin, then bakes the result into ordinary Position and Rotation keyframes (editable, fast to render, no expressions).
 
+
+https://github.com/user-attachments/assets/9bbc0f1c-22a4-440c-8733-548e5e21e3f9
+
+
+
 ## Install and run
 
 1. Put PhysicsRig.jsx in EffectCraft's scripts folder, or run it from the Scripts menu (File \> Scripts \> Run Script File), or paste it into the Script Console.
